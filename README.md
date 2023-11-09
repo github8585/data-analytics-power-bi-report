@@ -36,7 +36,7 @@ WHERE country = 'UK';
 
 ### Question 2: Which month in 2022 has had the highest revenue?
 
-```
+```sql
 SELECT EXTRACT(MONTH FROM CAST(date_added AS DATE)) AS month_added,
        EXTRACT(YEAR FROM CAST(date_added AS DATE)) AS year_added,
        SUM(sale_price) AS highest_revenue_2022
