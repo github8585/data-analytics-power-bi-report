@@ -33,4 +33,16 @@ FROM dim_store
 WHERE country = 'UK';
 
 ```
-`
+```
+
+### Question 2: Which month in 2022 has had the highest revenue?
+
+'''sql
+SELECT EXTRACT(MONTH FROM CAST(date_added AS DATE)) AS month_added,
+       EXTRACT(YEAR FROM CAST(date_added AS DATE)) AS year_added,
+       SUM(sale_price) AS highest_revenue_2022
+FROM dim_product
+WHERE CAST(date_added AS DATE) BETWEEN '2022-01-01' AND '2022-12-31'
+GROUP BY month_added, year_added
+ORDER BY highest_revenue_2022 DESC
+LIMIT 1;
