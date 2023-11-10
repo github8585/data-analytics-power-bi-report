@@ -1,7 +1,7 @@
 # Power BI Data Analysis and Reporting Project
 
 ## Overview
-
+![Capture4](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/8699deca-9185-4ac8-af23-787d65b36c6c)
 This project involves the development of advanced Power BI dashboards for data modeling, analysis, and visualization. The aim is to create interactive reports that provide insights into customer metrics, product details, and business KPIs.
 
 ## Contents
