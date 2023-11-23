@@ -1,26 +1,51 @@
 # Power BI Data Analysis and Reporting Project
 
 ## Overview
-![Capture4](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/8699deca-9185-4ac8-af23-787d65b36c6c)
-This project involves the development of advanced Power BI dashboards for data modeling, analysis, and visualization. The aim is to create interactive reports that provide insights into customer metrics, product details, and business KPIs.
+## Project Description (First Person, Past Tense)
+
+I was approached by a medium-sized international retailer to significantly enhance their business intelligence processes using Microsoft Power BI. They had accumulated a vast amount of sales data from their global operations over the years. My primary objective was to transform this extensive dataset into actionable insights for informed decision-making. My project involved several critical phases:
+
+### Data Extraction and Transformation
+- My initial task was to gather and refine data from diverse sources, ensuring it was clean, consistent, and ready for analysis.
+
+### Data Modeling
+- I developed a robust, star-schema-based data model. This model served as the backbone for all analyses and visualizations, providing a streamlined and efficient structure for the data.
+
+### Report Designing
+- I was tasked with creating a multi-faceted Power BI report that catered to two main audiences:
+  - For C-suite executives, it provided a high-level business summary, focusing on key metrics and trends.
+  - For more detailed operational insights, I analyzed customer segmentation by sales region, evaluated top-performing products categorized by type against their sales targets, and integrated a geographic visual that highlighted the performance of various retail outlets.
+
+My ultimate goal was to equip the retailer with a comprehensive tool that not only reflected past and present performances but also offered strategic insights to guide future business decisions.
+
+## Problem Addressed by the Project (Past Tense)
+
+The core issue I addressed was the retailer's challenge in harnessing their extensive, multi-source sales data for strategic decision-making. This data, though rich in potential, was scattered and unprocessed, hindering the extraction of valuable insights. The retailer faced several challenges, including:
+
+- **Data Overload:** Effectively managing and interpreting large volumes of data from multiple international sources.
+- **Lack of Cohesive Analysis:** Integrating various data streams into a single, coherent analytical framework.
+- **Inadequate Reporting Tools:** Developing a reporting system that not only provided a comprehensive overview for executive decision-making but also delved into specific operational areas like customer segmentation, product performance, and regional sales analysis.
+
+My role was to create a solution that transformed this complex data landscape into a clear, actionable business intelligence tool, facilitating better strategic planning and decision-making for the retailer.
+
 
 ## Contents
 
 1. **Data Import and Transformation Guide**: Instructions on importing and transforming data from various sources such as Azure SQL Database and Azure Blob Storage, focusing on:
-   - Ensuring data privacy by removing sensitive information.
-   - Splitting date and time into separate fields.
-   - Standardizing table structures and column names.
+   - Ensured data privacy by removing sensitive information.
+   - Split date and time into separate fields.
+   - Standardized table structures and column names.
 
 2. **Data Modeling and Analysis Guide**: A step-by-step guide to constructing a robust data model, which includes:
-   - Creating a continuous date table for time intelligence.
-   - Developing a star schema for efficient data relationships.
-   - Implementing DAX measures for dynamic calculations.
-   - Establishing hierarchies for in-depth temporal and geographical analysis.
+   - Created a continuous date table for time intelligence.
+   - Developed a star schema for efficient data relationships.
+   - Implemented DAX measures for dynamic calculations.
+   - Established hierarchies for in-depth temporal and geographical analysis.
 
 3. **Visualization Guides**: Detailed walkthroughs for crafting visual reports on Power BI, including:
-   - Executive Summary Page: Highlighting key business metrics with card visuals and time-series charts.
-   - Customer Detail Page: Analyzing customer behavior using donut and line charts, along with interactive slicers.
-   - Product Detail Report: Focusing on product performance with gauges, area charts, scatter graphs, and more.
+   - Executive Summary Page: Highlighted key business metrics with card visuals and time-series charts.
+   - Customer Detail Page: Analyzed customer behavior using donut and line charts, along with interactive slicers.
+   - Product Detail Report: Focused on product performance with gauges, area charts, scatter graphs, and more.
 
 ## Repository Structure
 
