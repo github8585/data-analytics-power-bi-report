@@ -9,8 +9,45 @@ I was approached by a medium-sized international retailer to significantly enhan
 ### Data Extraction and Transformation
 - My initial task was to gather and refine data from diverse sources, ensuring it was clean, consistent, and ready for analysis.
 
+```sql
+SELECT
+    s.customer_id,
+    s.purchase_amount,
+    s.purchase_date,
+    c.customer_name,
+    c.region
+FROM
+    SalesData s
+JOIN
+    CustomerData c ON s.customer_id = c.customer_id
+WHERE
+    s.purchase_amount > 0 AND
+    s.purchase_date >= '2023-01-01'
+ORDER BY
+    s.purchase_date;
+```
+
+```python
+import pandas as pd
+import numpy as np
+
+csv_data = pd.read_csv('sales_data.csv')
+excel_data = pd.read_excel('customer_data.xlsx')
+
+combined_data = pd.merge(csv_data, excel_data, on='customer_id', how='inner')
+
+combined_data.fillna(value=np.nan, inplace=True)
+
+combined_data.columns = combined_data.columns.str.lower().str.replace(' ', '_')
+
+combined_data['purchase_date'] = pd.to_datetime(combined_data['purchase_date'])
+
+cleaned_data = combined_data[combined_data['purchase_amount'] > 0]
+```
+
 ### Data Modeling
 - I developed a robust, star-schema-based data model. This model served as the backbone for all analyses and visualizations, providing a streamlined and efficient structure for the data.
+![Data Modelling Snippet](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/c3b76856-f3ea-4d37-8aaa-dd60b5da3bf6)
 
 ### Report Designing
 - I was tasked with creating a multi-faceted Power BI report that catered to two main audiences:
