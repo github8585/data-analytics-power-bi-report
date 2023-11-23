@@ -47,7 +47,7 @@ cleaned_data = combined_data[combined_data['purchase_amount'] > 0]
 
 ### Data Modeling
 - I developed a robust, star-schema-based data model. This model served as the backbone for all analyses and visualizations, providing a streamlined and efficient structure for the data.
-![Data Modelling Snippet](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/c3b76856-f3ea-4d37-8aaa-dd60b5da3bf6)
+![image](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/4390313d-cf49-4c3e-b86e-95f59821efd3)
 
 ### Report Designing
 - I was tasked with creating a multi-faceted Power BI report that catered to two main audiences:
