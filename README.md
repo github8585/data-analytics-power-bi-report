@@ -1,6 +1,7 @@
 # Power BI Data Analysis and Reporting Project
 
 ## Overview
+
 ## Project Description
 
 I was approached by a medium-sized international retailer to significantly enhance their business intelligence processes using Microsoft Power BI. They had accumulated a vast amount of sales data from their global operations over the years. My primary objective was to transform this extensive dataset into actionable insights for informed decision-making. My project involved several critical phases:
