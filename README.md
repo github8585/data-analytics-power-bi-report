@@ -61,3 +61,5 @@ This guide outlines the enhancements to the Stores Map page with interactive vis
 ---
 
 This guide provides the necessary steps to build a comprehensive Power BI report for store performance analysis. Ensure all visuals are correctly linked to the respective fields and measures for accurate data representation.
+
+![Stores Map](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/39be941a-3e2c-433f-85bb-44a1ffbb2836)
