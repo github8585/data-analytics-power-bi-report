@@ -21,3 +21,4 @@ This guide delineates the process of creating a dedicated customer analytics das
 5. **User Interactivity**
    - **5.1. Date Slicer**: Introduce a date slicer to enable annual data filtering, using the 'between' style for a better user interface.
 
+![Customer Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/7262a007-2f9d-4b68-9f13-6089ba8a2b4f)
