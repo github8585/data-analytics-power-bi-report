@@ -61,7 +61,7 @@ cleaned_data = combined_data[combined_data['purchase_amount'] > 0]
 ![Executive Summary ](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/78089baf-71f6-4482-a2ad-510e7b269153)
 
 **Product Detail:**
-![Product Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/29305cd5-86da-46fd-a977-a942589f1473)
+![Product Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/eca130be-b20b-485c-b16e-8d368eaea65c)
 
 **Store Map:**
 ![Stores Map](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/1137185f-c09b-4e18-8b0d-5753d03d9ced)
