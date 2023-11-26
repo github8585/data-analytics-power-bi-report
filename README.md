@@ -54,6 +54,18 @@ cleaned_data = combined_data[combined_data['purchase_amount'] > 0]
   - For C-suite executives, it provided a high-level business summary, focusing on key metrics and trends.
   - For more detailed operational insights, I analyzed customer segmentation by sales region, evaluated top-performing products categorized by type against their sales targets, and integrated a geographic visual that highlighted the performance of various retail outlets.
 
+**Customer Detail:**
+![Customer Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/0d113fb9-3a43-4896-9450-9aebc59c4e5d)
+
+**Executive Summary:**
+![Executive Summary ](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/78089baf-71f6-4482-a2ad-510e7b269153)
+
+**Product Detail:**
+![Product Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/29305cd5-86da-46fd-a977-a942589f1473)
+
+**Store Map:**
+![Stores Map](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/1137185f-c09b-4e18-8b0d-5753d03d9ced)
+
 My ultimate goal was to equip the retailer with a comprehensive tool that not only reflected past and present performances but also offered strategic insights to guide future business decisions.
 
 ## Problem Addressed by the Project
