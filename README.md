@@ -19,3 +19,5 @@ This guide provides instructions for creating an Executive Summary page in Power
 5. **KPIs for Quarterly Business Performance**
    - **5.1. Measure Creation for Quarterly Targets**: Formulate measures for the previous quarter's Profit, Revenue, and Orders, with targets indicating a 5% growth.
    - **5.2. KPI Integration for Revenue**: Set up a KPI for revenue with the value field as Total Revenue, Trend Axis to Start of Quarter, and configure the Trend Axis formatting. Duplicate for Profit and Orders, and arrange below the revenue chart.
+
+![Executive Summary ](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/4f7beb2d-8415-428e-8f6d-8269379d2d18)
