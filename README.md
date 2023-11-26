@@ -26,3 +26,4 @@ Explore the creation of an executive report dashboard in Power BI, aimed at prov
    - **6.2. Slicer Implementation**: Add a rectangle shape for the slicer toolbar and include two slicers for Products[Category] and Stores[Country], styled to fit the report's theme.
    - **6.3. Bookmarks for Slicer Panel**: Employ bookmarks to manage the slicer panel's visibility.
 
+![Product Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/1abc3ca3-b110-468f-8a43-048fb5c86c8b)
