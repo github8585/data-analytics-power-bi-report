@@ -64,7 +64,7 @@ cleaned_data = combined_data[combined_data['purchase_amount'] > 0]
 ![Product Detail](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/eca130be-b20b-485c-b16e-8d368eaea65c)
 
 **Store Map:**
-![Stores Map](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/1137185f-c09b-4e18-8b0d-5753d03d9ced)
+![Store Maps](https://github.com/github8585/data-analytics-power-bi-report/assets/55400003/8a6388c3-b103-4307-816f-5027ff1610e1)
 
 My ultimate goal was to equip the retailer with a comprehensive tool that not only reflected past and present performances but also offered strategic insights to guide future business decisions.
 
